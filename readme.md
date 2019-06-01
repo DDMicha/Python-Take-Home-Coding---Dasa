@@ -9,8 +9,8 @@ Updates or initial check-ins to the repository after midnight of the sixth day w
 TEST SUBMISSION CUTOFF: Midnight (UTC-3) May 31th You can use GCP, AWS, Azure services to solve the test. Ex: Pub/Sub, Kinesis, Spark, Dataflow, Glue, BigQuery, Athena, etc. If you choose to implement the test tasks using Cloud services please be sure to stay with the limits of the free tier those providers offers. 
 Choosing to perform the test tasks outside of Cloud with a traditional BASH, Python, Docker technology stack will not have a negative impact on your test results. If you have any questions about the test please feel free to email me today or over the weekend. Good luck! -->
 
-######Discuss the planning of the task(s) that were completed and their final implementations.
-*What is the goal?*
+###### Discuss the planning of the task(s) that were completed and their final implementations.
+**What is the goal?**
 Get data from wikipedia and show/query it.
 **What each task goal?**
 *Task 1* - Answer some questions.
@@ -20,21 +20,23 @@ Get data from wikipedia and show/query it.
 *Task 5* - Create a webpage where is possible make some queries.
 *Task 6* - Containerize the pipeline (readstream data, save and show)
 
-######What were some of the design considerations?
+###### What were some of the design considerations?
 I like to think in entire pipeline, so, could be good work on each task already containerize in order to save time, avoid issues, etc.
+
 **Visualize**
  * https://github.com/apache/incubator-superset
+
 **Query data**
  * https://github.com/azat-co/mongoui
 
-######WWhy was this technology stack chosen and implemented?
+###### Why was this technology stack chosen and implemented?
 *Docker* -  We can run it anywhere, could be cloud platforms or on premise.
 *Python* - Construction of etl process.
 *Superset* - Visualize tool with some lovely graphs.
 *MongoDB* - It is a ruge nosql database.
 
 
-######WWhat are the pros/cons of this technology stack?
+###### What are the pros/cons of this technology stack?
 **pros**: 
     * Easy to use.
     * Possible vertical scaling.
@@ -44,10 +46,10 @@ I like to think in entire pipeline, so, could be good work on each task already 
     * is not possible horizontal scaling
     * My acknologe in web applications.
 
-######WWhat are some alternatives to the implemented technology stack?
+###### What are some alternatives to the implemented technology stack?
 Sure, cloud services for example Databricks, EMR, HDInsight and also Hortonworks Data Platform or Cloudera.
 
-######WWhat are their strength's and weaknesses?
+###### What are their strength's and weaknesses?
 **strength**:
    * Environment
    * Simplicit
@@ -56,10 +58,10 @@ Sure, cloud services for example Databricks, EMR, HDInsight and also Hortonworks
    * Performance
 
 ###Diagram
+**Include a diagram of the overall pipeline that specifies the flow of the data and the architectural components of the stack.**
+![](images/diagram.png)
 
-![Alt](images/diagram.png)
 
-######Include a diagram of the overall pipeline that specifies the flow of the data and the architectural components of the stack.
 <!-- Include installation instructions on how to install your code and dependencies. -->
 <!-- All documentation and code should be checked into a Git compatible repository that is remotely accessible such as GitHub or BitBucket.
 Documentation should be in Markdown ( .md ) format as a README.md at the root of the Git repository -->
