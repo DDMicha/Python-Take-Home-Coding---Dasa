@@ -20,7 +20,7 @@ Get data from wikipedia and show/query it.
 *Task 5* - Create a webpage where is possible make some queries.
 *Task 6* - Containerize the pipeline (readstream data, save and show)
 
-###### What were some of the design considerations?
+##### What were some of the design considerations?
 I like to think in entire pipeline, so, could be good work on each task already containerize in order to save time, avoid issues, etc.
 
 **Visualize**
@@ -29,14 +29,14 @@ I like to think in entire pipeline, so, could be good work on each task already 
 **Query data**
  * https://github.com/azat-co/mongoui
 
-###### Why was this technology stack chosen and implemented?
+##### Why was this technology stack chosen and implemented?
 *Docker* -  We can run it anywhere, could be cloud platforms or on premise.
 *Python* - Construction of etl process.
 *Superset* - Visualize tool with some lovely graphs.
 *MongoDB* - It is a ruge nosql database.
 
 
-###### What are the pros/cons of this technology stack?
+##### What are the pros/cons of this technology stack?
 **pros**: 
     * Easy to use.
     * Possible vertical scaling.
@@ -46,10 +46,10 @@ I like to think in entire pipeline, so, could be good work on each task already 
     * is not possible horizontal scaling
     * My acknologe in web applications.
 
-###### What are some alternatives to the implemented technology stack?
+##### What are some alternatives to the implemented technology stack?
 Sure, cloud services for example Databricks, EMR, HDInsight and also Hortonworks Data Platform or Cloudera.
 
-###### What are their strength's and weaknesses?
+##### What are their strength's and weaknesses?
 **strength**:
    * Environment
    * Simplicit
@@ -57,9 +57,9 @@ Sure, cloud services for example Databricks, EMR, HDInsight and also Hortonworks
 **Weaknesses**:
    * Performance
 
-###Diagram
+### Diagram
 **Include a diagram of the overall pipeline that specifies the flow of the data and the architectural components of the stack.**
-![](images/diagram.png)
+![](/images/diagram.png)
 
 
 <!-- Include installation instructions on how to install your code and dependencies. -->
