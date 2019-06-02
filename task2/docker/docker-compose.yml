@@ -5,5 +5,5 @@ services:
     build: .
     image: task2
     volumes:
-      - "./:/code/"
+      - "../code/:/code/"
     command: python3 /code/task2.py  
