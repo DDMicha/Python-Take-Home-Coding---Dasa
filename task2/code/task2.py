@@ -18,10 +18,10 @@ def read_stream():
 
     for line in streaming():
         if line.startswith('data'):
-          person_dict = json.loads(line[6:])
+          data_dict = json.loads(line[6:])
           # only show non-bot
-          if person_dict['bot'] == False:
-            print(json.dumps(person_dict, indent = 4, sort_keys=True))
+          if data_dict['bot'] == False:
+            print(json.dumps(data_dict, indent = 4, sort_keys=True))
 
 
 read_stream()
