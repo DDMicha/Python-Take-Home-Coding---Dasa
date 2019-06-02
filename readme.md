@@ -60,7 +60,7 @@ Sure, cloud services for example Databricks, EMR, HDInsight and also Hortonworks
 ### Diagram
 **Include a diagram of the overall pipeline that specifies the flow of the data and the architectural components of the stack.**
 
-<img src= "/Python-Take-Home-Coding---Dasa/imagens/diagram.png">
+<img src= "./imagens/diagram.png">
 
 
 <!-- Include installation instructions on how to install your code and dependencies. -->
