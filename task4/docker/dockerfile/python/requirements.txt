@@ -1,0 +1,5 @@
+requests 
+tabulate 
+chardet2 
+urllib3 
+elasticsearch
