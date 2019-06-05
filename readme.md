@@ -9,11 +9,12 @@ Updates or initial check-ins to the repository after midnight of the sixth day w
 TEST SUBMISSION CUTOFF: Midnight (UTC-3) May 31th You can use GCP, AWS, Azure services to solve the test. Ex: Pub/Sub, Kinesis, Spark, Dataflow, Glue, BigQuery, Athena, etc. If you choose to implement the test tasks using Cloud services please be sure to stay with the limits of the free tier those providers offers. 
 Choosing to perform the test tasks outside of Cloud with a traditional BASH, Python, Docker technology stack will not have a negative impact on your test results. If you have any questions about the test please feel free to email me today or over the weekend. Good luck! -->
 
-###Requirements
+### Requirements
     * Docker 17.03.0 or above.
     * Docker-compose 1.13.0 or above.
 
-###Install
+### Install
+
 1. Open your terminal
 ``` git clone https://github.com/JohnatanSantana/Python-Take-Home-Coding---Dasa.git```
 
@@ -23,9 +24,11 @@ Choosing to perform the test tasks outside of Cloud with a traditional BASH, Pyt
 #### Discuss the planning of the task(s) that were completed and their final implementations.
 
 **What is the goal?**
+
 Get data from wikipedia and show/query it.
 
 **What each task goal?**
+
 *Task 1* - Answer some questions.
 *Task 2* - Consume data from wikipedia api with some considerations.
 *Task 3* - Save the data from wikipedia api into a database.
@@ -33,16 +36,23 @@ Get data from wikipedia and show/query it.
 *Task 5* - Create a webpage where is possible make some queries.
 *Task 6* - Containerize the pipeline (readstream data, save and show)
 
+
 ### What were some of the design considerations?
+
 I like to think in entire pipeline, so, could be good work on each task already containerize in order to save time, avoid issues, etc.
 
+
 **Visualize**
+
  * https://github.com/apache/incubator-superset
 
 **Query data**
+
  * https://github.com/azat-co/mongoui
 
+
 ### Why was this technology stack chosen and implemented?
+
 *Docker* -  We can run it anywhere, could be cloud platforms or on premise.
 *Python* - Construction of etl process.
 *Kibana* - Visualize tool with some lovely graphs.
@@ -50,22 +60,27 @@ I like to think in entire pipeline, so, could be good work on each task already 
 
 
 ### What are the pros/cons of this technology stack?
+
 **pros**: 
     * Easy to use.
     * Possible vertical scaling.
     * Multi Platforms.
     * Advantages for the Dev.
     * Reduced Risk.
+
 **cons**: 
     * ETL is not a distributed.
     * Is not possible horizontal scaling
     * My acknologe in web applications.
     * Learning curve
 
+
 ### What are some alternatives to the implemented technology stack?
 Sure, cloud services for example Databricks, EMR, HDInsight and also Hortonworks Data Platform or Cloudera.
 
+
 ### What are their strength's and weaknesses?
+
 **strength**:
    * Easy to management.t
    * Simplicit.
@@ -76,7 +91,9 @@ Sure, cloud services for example Databricks, EMR, HDInsight and also Hortonworks
    * Support or it is really expansive.
    * Elastic Search Updates are expensive.
 
+
 ### Diagram
+
 **Include a diagram of the overall pipeline that specifies the flow of the data and the architectural components of the stack.**
 
 <img src= "./imagens/diagram.png">
