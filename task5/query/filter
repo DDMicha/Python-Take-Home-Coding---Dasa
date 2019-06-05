@@ -1,0 +1,7 @@
+GET _search
+{
+  "query": {
+    "match": {"server_name":"en.wikipedia.org"}
+  }
+  
+}
