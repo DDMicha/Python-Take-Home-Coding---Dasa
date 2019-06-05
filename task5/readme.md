@@ -9,7 +9,11 @@
 
 <img src= "../imagens/kibana-dev-tool.png">
 
-2. Test one of the queries available
+2. on your left, go to Dev Tool
+
+<img src= "../imagens/dev-tool-query.png">
+
+3. Test one of the queries available
 
 ```
 cd task5/query
