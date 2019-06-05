@@ -6,6 +6,8 @@ services:
     image: task3
     volumes:
       - "../code/:/code/"
+    depends_on:
+      - mongo
     command: python3 /code/task3.py  
   
   mongo:
